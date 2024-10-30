@@ -15,6 +15,7 @@
     "axios": "^1.6.5",
     "pinia": "^2.1.7",
     "quasar": "^2.14.2",
+    "@microsoft/applicationinsights-web": "^3.0.0",
     "vue": "^3.3.11",
     "vue-axios": "^3.5.2",
     "vue-router": "^4.2.5"
