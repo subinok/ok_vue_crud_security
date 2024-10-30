@@ -12,6 +12,9 @@ import 'quasar/src/css/index.sass';
 
 import App from './App.vue';
 import router from './router';
+import appInsights from './agent/applicationinsights-setup';
+
+appInsights.trackPageView(); // 초기 페이지 뷰 트래킹
 
 // 테스트 용도의 더미 백엔드
 // import { fakeBackend } from './helpers';
